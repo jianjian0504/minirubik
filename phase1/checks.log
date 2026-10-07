@@ -1,0 +1,21 @@
+cc -O3 -std=c99 -Wall -Wextra compact.c tables.c -o compact
+cc -O3 -std=c99 -Wall -Wextra verify.c tables.c -o verify
+cc -O3 -std=c99 -Wall -Wextra check_tables.c tables.c -o check_tables
+python3 build_asm.py
+python3 renderer.py
+./check_tables
+H2/H4 PASS: full PDBs, maximum 8, solved 0; all even/odd packed entries equal unpacked BFS references
+python3 check_vectors.py
+12345671111111 0 PASS
+25314672313211 1 PASS
+12345671111111 0 PASS
+62345713133111 8 PASS
+24316572122213 8 PASS
+25713642221111 8 PASS
+24513763133333 9 PASS
+43752611332133 9 PASS
+25416373331111 10 PASS
+21345671111111 11 PASS
+All provided vector lengths and replayed paths PASS; exact move sequence may differ.
+python3 check_renderer.py
+Renderer sticker mapping PASS: 10,000 independent geometric quarter turns

@@ -1,0 +1,8 @@
+{
+  "binary_sha256": "bea887fcf020c1dda1f44177c19c27a13f3b93c625b17194ac37e3d421a34fc4",
+  "source_sha256": "5ada356be7e348ba3cd5d143a031989ee536317fbf4c8d3c06809510030e6101",
+  "states_sha256": "683c37f3941ae54b8c4fc13e306c18004cb7d3329c40c27bafc30199c51f243e",
+  "processor": "RV32_ISS",
+  "iret_budget": 50000000,
+  "cli": "-t asm --iret --exectime --runinfo"
+}
