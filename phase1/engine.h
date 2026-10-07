@@ -35,7 +35,8 @@ static int search(uint32_t a,uint32_t b,uint8_t path[11],uint64_t *nodes) {
    if(face==f->last)continue;
    if(m==face*3){f->ra=f->a;f->rb=f->b;}
    f->ra=turn4(f->ra,face);f->rb=turn4(f->rb,face);++*nodes;
-   if(heuristic(f->ra,f->rb)>bound-d-1)continue;
+   if(get4(pdb_a,f->ra)>bound-d-1 ||
+      get4(pdb_b,f->rb)>bound-d-1)continue;
    path[d]=m;
    st[d+1]=(frame_t){f->ra,f->rb,f->ra,f->rb,0,face};++d;
   }
