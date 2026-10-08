@@ -1,0 +1,20 @@
+[
+  {
+    "processor": "RV32_ISS",
+    "host_bytes_per_guest_byte_slope": 54.9,
+    "projected_peak_rss_bytes_for_baseline": 1077687334.1999998,
+    "median_large_probe_instructions_per_second": 16384109.375,
+    "idealized_seconds_for_1e9_instructions": 61.034748799093634,
+    "small_median_rss_bytes": 70828032,
+    "large_median_rss_bytes": 124796928
+  },
+  {
+    "processor": "RV32_5S",
+    "host_bytes_per_guest_byte_slope": 65.21666666666667,
+    "projected_peak_rss_bytes_for_baseline": 1266189230.2333333,
+    "median_large_probe_instructions_per_second": 283937.9907933929,
+    "idealized_seconds_for_1e9_instructions": 3521.8957392977004,
+    "small_median_rss_bytes": 70123520,
+    "large_median_rss_bytes": 134234112
+  }
+]

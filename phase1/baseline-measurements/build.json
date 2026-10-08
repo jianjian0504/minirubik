@@ -1,0 +1,12 @@
+{
+  "binary_path": "/private/var/folders/1_/ysg6j2sj5cl2z768f65kks1m0000gn/T/AppTranslocation/82CBD812-C59D-4F18-9A3F-C92F8DF10694/d/Ripes-v2.2.6-106-g5b8a616-mac-universal2.app/Contents/MacOS/Ripes",
+  "binary_sha256": "bea887fcf020c1dda1f44177c19c27a13f3b93c625b17194ac37e3d421a34fc4",
+  "processors": [
+    "RV32_ISS",
+    "RV32_5S"
+  ],
+  "repeats": 3,
+  "host_rss_units": "bytes (macOS)",
+  "guest_baseline_bytes": 18405414,
+  "notes": "RSS is whole-process peak; model time excludes process startup."
+}
