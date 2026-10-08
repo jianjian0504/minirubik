@@ -1,0 +1,8 @@
+solver-cli-fixed.elf  :
+section              size        addr
+.text                1308           0
+.data               77040   268435456
+.riscv.attributes      26           0
+Total               78374
+
+
